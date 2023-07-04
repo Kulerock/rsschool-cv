@@ -1,3 +1,77 @@
-p{
-  font-family: Arial;
+html {
+  font-family: Questrial;
+}
+
+.nav{
+  margin-top: 0px;
+}
+
+.nav-menu{
+  display: flex;
+  color: white;
+  background-color: rgb(255, 145, 85);
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0px;
+  padding: 35px 35px 35px 55px;
+}
+
+.nav-thing{
+  padding-right: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.nav-thing:hover{
+  color: black;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+  padding-left: 30px;
+}
+
+.ava {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  filter: grayscale(0.2) brightness(1.05);
+  transition: .3s;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.h1-name{
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
+  color: #4d2323;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+.h2-profession{
+  position: relative;
+  padding: 0;
+  margin-bottom: 20px;
 }
