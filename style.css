@@ -29,7 +29,7 @@ html {
 }
 
 .navi-link {
-  padding-right: 30px;
+  padding-right: 20px;
   font-size: 20px;
   cursor: pointer;
   transition: 0.15s;
@@ -75,7 +75,7 @@ html {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-  color: #4d2323;
+  color: #442323;
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 5px;
@@ -87,6 +87,104 @@ html {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
+}
+
+.sec{
+  width: calc(50% - 20px);
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #442323;
+}
+
+.sec-title{
+color: #442323;
+margin-left: calc(10%);
+}
+
+.sec-thing{
+  font-size: 20px;
+  line-height: 30px;
+  list-style: none;
+  margin-left: 0;
+}
+
+span{
+  color: rgb(255, 145, 85);
+}
+
+.a-link{
+text-decoration: none;
+color: rgb(255, 145, 85);
+transition: 0.15s;
+}
+
+.a-link:hover{
+  color: black;
+}
+
+.paragraph1{
+  text-align: justify;
+  width: calc(80%);
+  margin-left: calc(5%);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+pre{
+  font-size: 20px;
+}
+
+.paragraph2{
+  margin-left: calc(5%);
+}
+
+.sec2{
+  width: calc(50% - 20px);
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.footer{
+  background-color: rgb(255, 145, 85);
+  margin: 0px;
+}
+
+.footer-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sec3 {
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.copy {
+  color: white;
+
+}
+
+.a-link2 {
+  text-decoration: none;
+  color: white;
+  transition: 0.15s;
+}
+
+.a-link2:hover {
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  transition: 0.15s;
+}
+
+.logo:hover{
+  opacity: 80%;
 }
 
 /* Media Queries */
